@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_URL = (typeof process !== 'undefined' && process.env?.REACT_APP_URL_KEY) || "http://localhost:8080";
+  const API_URL = (typeof process !== 'undefined' && process.env?.REACT_APP_URL_KEY) || "https://note-board-550330878067.asia-south1.run.app";
 
   const handleGet = async (e) => {
     e.preventDefault();
